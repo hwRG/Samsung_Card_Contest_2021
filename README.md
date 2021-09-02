@@ -6,7 +6,7 @@
 
 - Samsung Card's 2nd Data Analytic  contest 
 
-- Predict multi categories of customer reviews
+- Predict multi categories of customer reviews<br>
   (ex. 상담하려고 기다리는 시간이 너무 길다 → 불만>고객서비스>상담시스템)
 
 - First Pass (Probably 20 teams)
