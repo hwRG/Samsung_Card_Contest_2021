@@ -3,12 +3,16 @@
 
 ## Introduction 
 
-- Samsung Card's 2nd Data Analytic  contest 
+- 삼성카드 제 2회 데이터분석 공모전<br>
 
-- Predict multi categories of customer reviews.<br>
-  (ex. 상담하려고 기다리는 시간이 너무 길다 → 불만>고객서비스>상담시스템)
+  
 
-- First Pass (Probably 20 teams)
+- 삼성카드 이용 고객의 리뷰에 대한 멀티 카테고리 예측<br>
+  (ex. 상담하려고 기다리는 시간이 너무 길다 → 불만>고객서비스>상담시스템)<br>
+
+  
+  
+- 본선 진출 (약 20 팀 선정)
 
   <br><br>
 
@@ -16,16 +20,16 @@
 
 ## Data Preprocessing
 
-#### 1. Divide the complex sentence
+#### 1. 구간별로 문장 자르기
 
 - Divide the complex sentence by specific rules.
   (ex. 니다_ 고_ 하고_  .. →  Divide the sentence)<br><br>
 
-#### 2. Remove unnecessary elements
+#### 2. 불필요한 요소 제거
 
 - Remove the unnecessary elements with replace function.
 
-#### 3. Typo Detect and Correction
+#### 3. 오타 감지 및 수정
 
 - Set coordinates of words divided into 2 syllables with weight considering the keyboard vowel position.
 - Among the words set as nearby coordinates, words with low frequency are recognized as typos.
